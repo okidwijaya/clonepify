@@ -1,7 +1,7 @@
 import React from 'react';
 import ProductCardSmall from '@/components/ProductCardSmall';
 
-export default function page() {
+export default function Page() {
   return (
     <div className="pt-12 pb-4 px-4 w-full">
         <div className='mt-8 w-full max-w-[300px] mx-auto grid grid-cols-2 justify-center align-middle gap-2'>

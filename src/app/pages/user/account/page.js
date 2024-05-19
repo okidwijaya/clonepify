@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-function page() {
+function Page() {
   return (
     <>
         <div className='h-full bg-white mt-[5rem] grid grid-cols-[0.2fr_1fr] w-full max-w-[1330] ml-auto mr-auto py-4 px-8 gap-7'>
@@ -32,4 +32,4 @@ function page() {
   )
 }
 
-export default page
+export default Page;

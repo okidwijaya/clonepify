@@ -4,7 +4,7 @@ import { NotesLists } from '@/components/NotesLists';
 import api from '@/api';
 import React, { useState, useEffect} from 'react'
 
-function page() {
+function Page() {
     const [notes, setNotes] = useState([]);
     const [content, setContent] = useState("");
     const [title, setTitle] = useState("");
@@ -64,4 +64,4 @@ function page() {
     )
 }
 
-export default page;
+export default Page;

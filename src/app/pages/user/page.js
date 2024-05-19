@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import { redirect } from "next/navigation";
 
-export default function page() {
+export default function Page() {
     const[activeTabs, setActiveTab] = useState(1);
     redirect('/pages/user/login');
 

@@ -4,7 +4,7 @@ import NarrowCard from "@/components/NarrowCard";
 import SideBarNavigation from "@/components/SideBarNavigation";
 import SmallCard from "@/components/SmallCard";
 
-export default function page() {
+export default function Page() {
     return (
         <div className="min-h-screen w-full justify-between p-0 mx-auto relative">
             <div className="w-full m-auto h-full">

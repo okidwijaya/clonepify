@@ -2,7 +2,7 @@ import React from "react";
 import SmallCard from "@/components/SmallCard";
 import BigCard from "@/components/BigCard";
 
-function page() {
+function Page() {
     return (
         <>
         <div className="w-full m-auto h-full max-w-[850px]">
@@ -42,4 +42,4 @@ function page() {
     );
 }
 
-export default page;
+export default Page;

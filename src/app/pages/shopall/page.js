@@ -1,7 +1,7 @@
 import ProductCard from '@/components/ProductCard';
 import React from 'react'
 
-export default function page() {
+export default function Page() {
     const nums = [];
     for (let i = 1; i < 9; i++) {
         nums.push(i);

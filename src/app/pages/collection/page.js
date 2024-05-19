@@ -1,7 +1,7 @@
 import ProductCard from "@/components/ProductCard";
 import React from "react";
 
-function page() {
+function Page() {
   return (
     <div className="max-w-[920px] mx-auto flex flex-row flex-wrap items-start align-middle content-center">
       <div className="text-left">
@@ -20,4 +20,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

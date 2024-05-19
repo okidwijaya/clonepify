@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import product1 from '../../../../public/assets/images/image-placeholder.png';
 
-export default function page() {
+export default function Page() {
   return (
     <div className='mt-8 grid md:grid-cols-2 sm:grid-cols-1 w-full p-4 mx-auto'>
         <div className='grid grid-cols-2'>

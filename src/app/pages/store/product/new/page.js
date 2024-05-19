@@ -6,7 +6,7 @@ import BannerImage from "../../../../../../public/assets/images/image-placeholde
 import axios from "axios";
 import { useRouter } from "next/navigation";
 
-function page() {
+function Page() {
   const [mainImageProduct, setMainImageProduct] = useState();
   const [isLoading, setIsLoading] = useState(false);
   const [success, setSuccess] = useState(null);
@@ -392,4 +392,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import StarterForm from '@/components/StarterForm';
 
-function page() {
+function Page() {
     const pathname = usePathname();
 
   return (
@@ -14,4 +14,4 @@ function page() {
   )
 }
 
-export default page;
+export default Page;

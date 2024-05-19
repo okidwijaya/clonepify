@@ -5,7 +5,7 @@ import SmallCard from "@/components/SmallCard";
 import Link from "next/link";
 import BasicTable from "@/components/BasicTable";
 
-function page() {
+function Page() {
     return (
         <>
             <div className="w-full m-auto h-full max-w-[1024px] relative">
@@ -63,4 +63,4 @@ function page() {
     );
 }
 
-export default page;
+export default Page;
