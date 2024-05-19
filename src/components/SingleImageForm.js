@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import Image from "next/image";
 import React, { useState } from "react";
 import BannerImage from "../../../../../../public/assets/images/image-placeholder-removebg-preview.png";

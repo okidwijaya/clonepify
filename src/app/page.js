@@ -4,24 +4,24 @@ import axios from "axios";
 import ProductCard from "@/components/ProductCard"
 import Link from "next/link";
 
-export default function Home() {
+export default function Page() {
   const [productsList, setProductsList] = useState([]);
 
-  const getProducts = () => {
-    axios
-      .get(`${process.env.NEXT_PUBLIC_API_URL}/api/products/`)
-      .then((res) => {
-        setProductsList(res.data);
-        console.log('response', res.data);
-      })
-      .then(() => {
-        console.log('state', productsList);
-      })
-      .catch((e) => {
-        console.log(e);
-      });
-  };
   useEffect(() => {
+    const getProducts = () => {
+      axios
+        .get(`${process.env.NEXT_PUBLIC_API_URL}/api/products/`)
+        .then((res) => {
+          setProductsList(res.data);
+          console.log('response', res.data);
+        })
+        .then(() => {
+          console.log('state', productsList);
+        })
+        .catch((e) => {
+          console.log(e);
+        });
+    };
     getProducts();
 
     console.log('getProducts', productsList);
