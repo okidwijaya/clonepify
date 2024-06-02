@@ -3,6 +3,9 @@ import React from "react";
 export const metadata = {
   title: "Pages",
   description: "homepage ",
+  icons: {
+    icon: "/favicon-logo.svg",
+  },
 };
 
 const layout = ({ children }) => {

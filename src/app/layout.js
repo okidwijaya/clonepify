@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Clonepify",
-  description: "Clonepify E-commerce",
+  description: "Clonepify",
   icons: {
     icon: "/favicon-logo.svg",
   },

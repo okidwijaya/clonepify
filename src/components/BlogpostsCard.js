@@ -9,7 +9,7 @@ export default function BlogpostsCard() {
   useEffect(() => {
     const getProducts = () => {
       axios
-        .get(`${process.env.NEXT_PUBLIC_API_URL}/api/blogpost/`)
+        .get(`${process.env.NEXT_PUBLIC_API_URL}/api/blogposts/`)
         .then((res) => {
           setBlogpost(res.data);
           console.log("response", res.data);
