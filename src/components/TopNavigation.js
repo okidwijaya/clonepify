@@ -52,11 +52,11 @@ function TopNavigation() {
         <div className='w-full max-w-[100%] fixed top-0 pt-4 px-4 left-0 z-20 bg-white'>
             <div className="bg-black-navy p-4 bg-white rounded-2xl w-full max-w-[1130px] mx-auto shadow-sm">
                 <nav className="grid grid-cols-3 justify-center align-middle gap-4 w-full relative">
-                    <div onClick={drawerToggle} className="cursor-pointer">
+                    <div onClick={drawerToggle} className="cursor-pointer" style={{ visibility: 'hidden', height: '0', width: '0'}}>
                         <IconComponent name="GiHamburgerMenu" size="20px" color="white-light-grey" className='w-fit' />
                     </div>
                     <div className="text-center w-full font-semibold uppercase">
-                        <Link href="/"><h6>Fashion Style Website</h6></Link>
+                        <Link href="/"><h6>Holla!</h6></Link>
                     </div>
                     <div className="w-full">
                         <ul className="w-full h-full mr-0 ml-auto flex justify-end align-middle gap-4 items-center">
@@ -78,7 +78,7 @@ function TopNavigation() {
                                     <li className='w-max cursor-pointer' style={{ display: 'none', }}>
                                     </li>)
                             }
-                            <li className="cursor-pointer w-max font-extralight uppercase text-xs">Cart</li>
+                            <li className="cursor-pointer w-max font-extralight uppercase text-xs" style={{ visibility: 'hidden', height: '0', width: '0'}}>Cart</li>
                         </ul>
                     </div>
                 </nav>
