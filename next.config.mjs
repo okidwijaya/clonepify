@@ -3,6 +3,12 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
+        protocol: "https",
+        hostname: "clonepify-backend.vercel.app",
+        port: "",
+        pathname: "/**",
+      },
+      {
         protocol: "http",
         hostname: "127.0.0.1",
         port: "8000",
@@ -10,12 +16,13 @@ const nextConfig = {
       },
     ],
   },
-  env: {
-    NEXT_PUBLIC_API_URL: process.env.NODE_ENV === 'development'
-      ? 'http://127.0.0.1:8000/'
-      : 'clonepify-backend.vercel.app'
-  }
 };
+
+// env: {
+//   NEXT_PUBLIC_API_URL: process.env.NODE_ENV === 'development'
+//     ? 'http://127.0.0.1:8000/'
+//     : 'clonepify-backend.vercel.app'
+// }
 // images: {
 //   remotePatterns: [
 //     {
