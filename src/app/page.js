@@ -33,7 +33,7 @@ export default function Page() {
 
   return (
     <main className="min-h-screen w-full p-4 mx-auto mt-[4.5rem] relative">
-      <div className="w-full max-w-[1440px] mx-auto p-4">
+      <div className="w-full max-w-[1440px] mx-auto">
       <div className="hidden grid-cols-[0.7fr_0.3fr] items-stretch" style={{ visibility: 'hidden', height: '0', width: '0'}}>
         <p className="mt-0 h-auto font-semibold text-md text-left">
           NEW ITEMS

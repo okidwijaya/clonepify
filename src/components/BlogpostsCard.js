@@ -26,8 +26,8 @@ export default function BlogpostsCard() {
     console.log("getblogposts", blogpost);
   }, []);
   return (
-    <>
-      <h1 className="text-[#121212] text-5xl w-100 max-w-[400px]">
+    <div>
+      <h1 className="text-[#121212] uppercase md:text-5xl text-2xl mb-4 w-100 max-w-[400px]">
         News
       </h1>
       <ul
@@ -62,6 +62,6 @@ export default function BlogpostsCard() {
           <p style={{ color: "#ffff" }}>Loading...</p>
         )}
       </ul>
-    </>
+    </div>
   );
 }

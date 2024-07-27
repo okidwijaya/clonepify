@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import TopNavigation from '@/components/TopNavigation';
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}  suppressHydrationWarning={true}>
           <TopNavigation />
           {children}
+          <Footer />
       </body>
     </html>
   );
