@@ -26,17 +26,20 @@ export default function BlogpostsCard() {
     console.log("getblogposts", blogpost);
   }, []);
   return (
-    <div>
-      <h1 className="text-[#121212] uppercase md:text-5xl text-2xl mb-4 w-100 max-w-[400px]">
+    <div className="w-full px-4 max-w-[1190px] mx-auto">
+      <div className="mb-4 w-100 grid grid-cols-[1fr_auto] justify-between items-center">
+      <h1 className="text-[#121212] uppercase md:text-5xl text-2xl w-100 max-w-[400px]">
         News
       </h1>
+      <Link href='/'>[More]</Link>
+      </div>
       <ul
         className="flex flex-wrap flex-row w-full mx-auto justify-start"
       >
         {blogpost.length > 0 ? (
           blogpost.map((blog, index) => (
             <li className="w-full max-w-[350px] cursor-pointer" key={index}>
-              <div className="max-w-sm rounded-md mr-4 text-[#121212] border border-[#121212] overflow-hidden">
+              <div className="max-w-sm rounded-[16px] mr-4 text-[#121212] border border-[#c0c0c0] overflow-hidden">
                 {/* <img className="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains"> */}
                 <div className="px-6 py-4">
                   <div className="text-xl mb-2">{blog.title}</div>

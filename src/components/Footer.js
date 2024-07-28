@@ -5,10 +5,10 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <div className='w-full min-h-36 pt-11 pb-24 flex items-center bg-[#FFFFFF] text-[#121212] mt-12 border-[#bababa4a] border-t-[1px]'>
-    <div className='w-full max-w-fit mx-auto p-4 grid md:grid-cols-[minmax(320px,_1fr)_minmax(320px,_1fr)_minmax(320px,_1fr)] sm:grid-cols-1 items-start justify-center gap-6'>
+    <div className='w-full max-w-fit mx-auto p-4 grid sm:grid-cols-1 md:grid-cols-[minmax(320px,_1fr)_minmax(320px,_1fr)] lg:grid-cols-[minmax(320px,_1fr)_minmax(320px,_1fr)_minmax(320px,_1fr)] items-start justify-center gap-6'>
         <div className='grid grid-cols-1 w-full max-w-[320px] mx-auto'>
             <h2 className='font-medium'>About</h2>
-            <div className="px-4 py-2 rounded-md mr-4 text-[#121212] border border-[#121212]">
+            <div className="px-4 py-2 rounded-lg mr-4 text-[#121212] border border-[#c0c0c0]">
             <p>Brand description</p>
             </div>
         </div>
@@ -19,7 +19,7 @@ export default function Footer() {
                         Help
                     </Link>
                 </li>
-                <div className="px-4 py-2 rounded-md mr-4 text-[#121212] border border-[#121212]">
+                <div className="px-4 py-2 rounded-lg mr-4 text-[#121212] border border-[#c0c0c0]">
                 <li>
                     <Link href="#">
                         Contact
@@ -36,8 +36,8 @@ export default function Footer() {
         
         <div className='grid grid-cols-1 gap-4 w-full max-w-[320px] mx-auto'>
             <div className='grid grid-cols-1'>
-                <label className="pl-0 pr-4 pt-0 pb-0 rounded-md mr-4 text-[#121212]">Newsletters</label>
-                <input className='w-full py-2 px-4 rounded-md border border-[#121212]' type="email" placeholder="Email Address" />
+                <label className="pl-0 pr-4 pt-0 pb-0 rounded-lg mr-4 text-[#121212]">Newsletters</label>
+                <input className='w-full py-2 px-4 rounded-lg border border-[#c0c0c0]' type="email" placeholder="Email Address" />
             </div>
             <ul className='grid grid-cols-[24px_24px_24px] gap-[0.5rem]'>
                 <li>

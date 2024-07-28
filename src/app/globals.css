@@ -37,3 +37,21 @@ button.w-fit.text-sm.py-2.px-2.rounded:hover svg{
     text-wrap: balance;
   }
 }
+
+.swiper-slide:first-child{
+  margin-left: 1rem;
+}
+
+.swiper-slide:last-child{
+  margin-right: 1rem;
+}
+
+@media screen and (min-width: 1190px) {
+  .swiper-slide:first-child{
+    margin-left: 8.5rem;
+  }
+  
+  .swiper-slide:last-child{
+    margin-right: 0;
+  }
+}
